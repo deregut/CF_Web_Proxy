@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "include": [
+    "/",
+    "/proxy",
+    "/download",
+    "/watch",
+    "/browse",
+    "/raw",
+    "/api",
+    "/health"
+  ],
+  "exclude": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "cf-web-proxy",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A Cloudflare Pages proxy for downloading, streaming and browsing web content.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "build": "wrangler pages functions build --outdir .wrangler/functions-build",
+    "deploy": "wrangler pages deploy public",
+    "check": "wrangler pages functions build --outdir .wrangler/functions-build"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+# Domain blocklist
+#
+# One domain per line. Sub-domains are blocked as well, so "example.com"
+# also blocks "www.example.com" but never "notexample.com".
+# Lines starting with "#" are ignored.
+#
+# This file is fetched at runtime from the raw GitHub URL configured in
+# lib/blacklist.js and cached for 5 minutes. If GitHub cannot be reached the
+# proxy falls back to the built-in list, so blocking still works offline.
+#
+# For a fork, point the BLACKLIST_URL environment variable at your own copy
+# of this file (or use a KV namespace, see the README).
+
+example.com
+another-example.com

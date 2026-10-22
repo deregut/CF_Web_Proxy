@@ -1,0 +1,16 @@
+name = "cf-web-proxy"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# Optional configuration (same variables as for the Pages deployment).
+#
+# ACCESS_KEY         = "secret"
+# BLACKLIST_URL      = "https://raw.githubusercontent.com/<user>/<repo>/main/functions/blacklist.txt"
+# MEDIA_PROXY_BASE   = "https://cdn.example.com"
+# CORS_ORIGIN        = "https://app.example.com"
+# SELF_HOSTS         = "proxy.example.com,www.example.com"
+# TARGET_HOST_ALLOWLIST = "localhost,127.0.0.1"
+
+# [[kv_namespaces]]
+# binding = "BLACKLIST"
+# id = "<YOUR_KV_NAMESPACE_ID>"

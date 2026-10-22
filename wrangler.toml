@@ -1,0 +1,17 @@
+name = "cf-web-proxy"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "./public"
+
+# Optional configuration. Every value can also be set in the Cloudflare
+# dashboard under Settings -> Environment variables.
+#
+# ACCESS_KEY    = "secret"        # require ?key=... before proxying anything
+# BLACKLIST_URL = "https://..."   # your own blocklist file
+# MEDIA_PROXY_BASE = "https://..." # serve /download and /watch from another host
+# CORS_ORIGIN  = "https://app.example.com"
+# SELF_HOSTS   = "proxy.example.com,www.example.com"
+# TARGET_HOST_ALLOWLIST = "localhost,127.0.0.1"   # local development only
+
+# [[kv_namespaces]]
+# binding = "BLACKLIST"
+# id = "<YOUR_KV_NAMESPACE_ID>"
